@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	<title>Leicester City FC</title>
+	<link rel="stylesheet" type="text/css" href="soccer.css">
+	<script type="text/javascript" src="leicester city.js"></script>
+	<meta charset="UTF-8">
+	
+	<body onload= "onload()">
+	
+    <script >
+    function onload()
+    {
+    var d = new Date();
+    var h = d.getHours();
+    var greet;
+    if(h < 12)
+    {greet = "enjoy the rest of your morning";}
+    else if (h < 17)
+    {greet = "Enjoy the afternoon";}
+    else {greet = "Have a good Evening";}
+    var htag = document.createElement("H3");
+    var text = document.createTextNode(greet);
+    htag.appendChild(text);
+    document.getElementById("TopDiv").appendChild(htag);
+    }
+    </script>
+	
+	</head>
+	<body>
+	<img src="soccer.png" width="300" height="50">
+	<div id = "container"> <h1> <a href="http://www.lcfc.com/"> Leicester City FC </a> </h1>
+		<div id = "TopDiv" > <b> Leicester City FC Info. </b>
+			<div id="box">
+				<div id = "MLDiv">  <h2> About Leicester </h2> <a href="./Video.html"> Video </a> <br/> <a href="./History.html"> History </a> <br/> <a href="./Starters.html">Players </a> <br/> <a href="./Location.html"> Location </a> </div>
+				<div id = "Mmiddle"> <h3> The Champion of 2015-2016 English Premier League. </h3>
+									<img src="leicester.jpg" width= "300" height="300">
+									<p>Full name	Leicester City Football Club
+Nickname(s)	The Foxes</br>
+Founded	1884; 132 years ago</br>
+(as Leicester Fosse FC)</br>
+Ground	King Power Stadium</br>
+Capacity	32,262[1]</br>
+Owner	King Power International Group</br>
+Chairman	Vichai Srivaddhanaprabha</br>
+Manager	Claudio Ranieri</br>
+League	Premier League</br>
+2015–16	Premier League, 1st</p></br>
+
+				</div>
+				<div id ="Mright">
+    <h1> You can comment to Leicester!</h1>
+    <input id ="comment" type="text" id="look"/>
+    <br />
+	<button onclick="post()"> submit </button>
+
+			</br>
+			</br>
+			</div>
+		<a href="mailto:sjeoung@albany.edu"> Email me </p> </a>
+		</div>
+	</div>
+
+
+	</body>
+</html>

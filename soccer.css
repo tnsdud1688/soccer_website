@@ -1,0 +1,72 @@
+body{
+	background-image:url("background.jpg");
+	
+}
+
+#container
+{
+margin: 0 auto;
+margin-top: 75px;
+Width: 1100px;
+Height:1300px; 
+background-color:#31B404;
+text-align:center;
+line-height: 50px;
+}
+
+
+#TopDiv{
+margin: 0 auto;
+Height:1180px;
+Width: 1000px;
+background-color: orange;
+font-size: 15px;
+}
+
+#box
+{
+margin: 0 auto;
+height: 1050px;
+width: 900px;
+}
+
+#MLDiv{
+float: left;
+Height: 1050px;
+Width: 180px;
+text-align:center;
+line-height:30px;
+background-color: #81F7BE;
+
+
+}
+
+
+#Mmiddle
+{
+float:left;
+Height: 1050px;
+width: 360px;
+line-height:30px;
+
+
+
+
+}
+#Mright
+{
+float:left;
+height:1050px;
+width:360px;
+text-align:center;
+line-height:30px;
+
+}
+
+#styling
+{
+background-color:black;
+color:lime;
+font: bold 18px MS Sans Serif;
+padding: 3px;
+}
